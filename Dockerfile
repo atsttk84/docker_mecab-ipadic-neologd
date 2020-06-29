@@ -13,6 +13,6 @@ CMD git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git\
  && cd /usr/local/mecab-ipadic-neologd\
  && echo yes | ./bin/install-mecab-ipadic-neologd -n -a\
  && cd /usr/lib/mecab/dic\
- && tar -C /usr/lib/mecab/dic zcvf mecab-ipadic-neologd.tar.gz mecab-ipadic-neologd;\
+ && tar zcvf mecab-ipadic-neologd.tar.gz mecab-ipadic-neologd;\
  cd /usr/lib/mecab/dic\
  && /bin/bash -l
